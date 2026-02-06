@@ -322,9 +322,11 @@ img {
 }
 
 .plans__inner {
-  max-width: 720px;
-  margin: 0 auto;
-  width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 .plans__cta {
