@@ -185,6 +185,7 @@ img {
   min-height: 380px;
   overflow: hidden;
   border-radius: 0.25rem;
+  order: 2;
 }
 
 .parking-overview__image {
@@ -202,6 +203,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  order: 1;
 }
 
 .parking-overview__title {

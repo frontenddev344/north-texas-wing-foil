@@ -338,7 +338,7 @@
     width: 100%;
     max-width: 100%;
     min-height: 280px;
-    order: 1;
+    order: 2;
   }
 
   .parking-overview__image {
@@ -348,7 +348,7 @@
   }
 
   .parking-overview__content {
-    order: 2;
+    order: 1;
   }
 
   .parking-overview__title {
