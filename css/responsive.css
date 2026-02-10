@@ -277,6 +277,269 @@
   }
 }
 
+/* Parking overview responsive */
+.parking-overview {
+  overflow-x: hidden;
+}
+
+@media (max-width: 1200px) {
+  .parking-overview__row {
+    gap: 2rem;
+  }
+
+  .parking-overview__image-wrap {
+    flex: 0 0 54%;
+    max-width: 54%;
+  }
+}
+
+@media (max-width: 992px) {
+  .parking-overview {
+    padding: 2.5rem 0;
+  }
+
+  .parking-overview__row {
+    gap: 1.75rem;
+  }
+
+  .parking-overview__image-wrap {
+    flex: 0 0 50%;
+    max-width: 50%;
+    min-height: 300px;
+  }
+
+  .parking-overview__image {
+    min-height: 300px;
+  }
+
+  .parking-overview__title {
+    font-size: clamp(1.35rem, 3.5vw, 1.6rem);
+    margin-bottom: 1rem;
+  }
+
+  .parking-overview__text {
+    font-size: clamp(0.9rem, 1.5vw, 1rem);
+  }
+}
+
+@media (max-width: 768px) {
+  .parking-overview {
+    padding: 2rem 0;
+  }
+
+  .parking-overview__row {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: stretch;
+  }
+
+  .parking-overview__image-wrap {
+    flex: none;
+    width: 100%;
+    max-width: 100%;
+    min-height: 280px;
+    order: 1;
+  }
+
+  .parking-overview__image {
+    min-height: 280px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .parking-overview__content {
+    order: 2;
+  }
+
+  .parking-overview__title {
+    font-size: clamp(1.25rem, 5vw, 1.5rem);
+    margin-bottom: 1.25rem;
+  }
+
+  .parking-overview__text {
+    font-size: 0.95rem;
+    line-height: 1.65;
+  }
+}
+
+@media (max-width: 576px) {
+  .parking-overview {
+    padding: 1.75rem 0;
+  }
+
+  .parking-overview__row {
+    gap: 1.25rem;
+  }
+
+  .parking-overview__image-wrap {
+    min-height: 240px;
+  }
+
+  .parking-overview__image {
+    min-height: 240px;
+  }
+
+  .parking-overview__title {
+    font-size: 22px;
+    margin-bottom: 1rem;
+  }
+
+  .parking-overview__text {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .parking-overview {
+    padding: 1.5rem 0;
+  }
+
+  .parking-overview__row {
+    gap: 22px;
+  }
+
+  .parking-overview__image-wrap {
+    min-height: 200px;
+  }
+
+  .parking-overview__image {
+    min-height: 200px;
+  }
+
+  .parking-overview__title {
+    font-size: 20px;
+    margin-bottom: 0.875rem;
+  }
+
+  .parking-overview__text {
+    font-size: 14px;
+  }
+}
+
+/* Parking details responsive */
+.parking-details {
+  overflow-x: hidden;
+}
+
+@media (max-width: 1200px) {
+  .parking-details {
+    padding: 4rem 0;
+  }
+
+  .parking-details__title {
+    font-size: clamp(1.75rem, 3.5vw, 2rem);
+  }
+}
+
+@media (max-width: 992px) {
+  .parking-details {
+    padding: 3rem 0;
+  }
+
+  .parking-details__image-wrap {
+    margin-bottom: 2rem;
+  }
+
+  .parking-details__title {
+    font-size: clamp(1.5rem, 4vw, 1.75rem);
+    margin-bottom: 1.75rem;
+  }
+
+  .parking-details__info {
+    gap: 1.5rem;
+  }
+
+  .parking-details__subtitle {
+    font-size: clamp(1.1rem, 2.5vw, 1.2rem);
+  }
+
+  .parking-details__text {
+    font-size: clamp(0.95rem, 1.5vw, 1rem);
+  }
+}
+
+@media (max-width: 768px) {
+  .parking-details {
+    padding: 2.5rem 0;
+  }
+
+  .parking-details__image-wrap {
+    margin-bottom: 1.75rem;
+  }
+
+  .parking-details__title {
+    font-size: clamp(1.35rem, 4.5vw, 1.5rem);
+    margin-bottom: 1.5rem;
+  }
+
+  .parking-details__info {
+    gap: 1.5rem;
+  }
+
+  .parking-details__subtitle {
+    font-size: 1.1rem;
+  }
+
+  .parking-details__text {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .parking-details {
+    padding: 2rem 0;
+  }
+
+  .parking-details__image-wrap {
+    margin-bottom: 1.5rem;
+  }
+
+  .parking-details__title {
+    font-size: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .parking-details__info {
+    gap: 1.25rem;
+  }
+
+  .parking-details__subtitle {
+    font-size: 1rem;
+  }
+
+  .parking-details__text {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .parking-details {
+    padding: 1.5rem 0;
+  }
+
+  .parking-details__image-wrap {
+    margin-bottom: 1.25rem;
+  }
+
+  .parking-details__title {
+    font-size: 18px;
+    margin-bottom: 1rem;
+  }
+
+  .parking-details__info {
+    gap: 1rem;
+  }
+
+  .parking-details__subtitle {
+    font-size: 16px;
+    margin-bottom: 0.4rem;
+  }
+
+  .parking-details__text {
+    font-size: 14px;
+  }
+}
+
 /* Accordion responsive */
 .accordion-section {
   overflow-x: hidden;
